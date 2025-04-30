@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyper Punk</title>
+    <link rel="stylesheet" src="src/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="main w-full">
+      <nav class="w-full fixed top-0 left-0 px-10 py-3 flex justify-between items-center">
+        <img
+          class="w-[160px] mix-blend-screen filter saturate-150 contrast-125"
+          src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1080&crop=smart&auto=webp&s=0e62e74ba8b5ef6191228e855079491cfa56f57b"
+        />
+        <div class="flex gap-5 items-center">
+          <a href="#" class="tracking-tight text-white hover:text-blue-400 hover:text-shadow-[0_0_10px_#60A5FA] transition-colors">Games</a>
+          <a href="#" class="tracking-tight text-white hover:text-blue-400 hover:text-shadow-[0_0_10px_#60A5FA] transition-colors">News</a>
+          <a href="#" class="tracking-tight text-white hover:text-blue-400 hover:text-shadow-[0_0_10px_#60A5FA] transition-colors">Community</a>
+          <a href="#" class="tracking-tight text-white hover:text-blue-400 hover:text-shadow-[0_0_10px_#60A5FA] transition-colors">Shop</a>
+          <a href="#" class="tracking-tight text-white hover:text-blue-400 hover:text-shadow-[0_0_10px_#60A5FA] transition-colors">Support</a>
+        </div>
+      </nav>
+      <div class="w-full h-[150vh] overflow-hidden">
+        <img
+          class="absolute w-3/4 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-screen filter saturate-100 contrast-200"
+          src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1080&crop=smart&auto=webp&s=0e62e74ba8b5ef6191228e855079491cfa56f57b"
+        />
+        <div class="w-[38em] h-[38rem] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[-1] rounded-full bg-blue-800 blur-[90px]"></div>
+        <canvas id="canvas"></canvas>
+      </div>
+      <div class="w-full h-screen relative bg-[#888]">
+        <div class="w-full h-96 absolute top-0 left-0 bg-gradient-to-b from-black to-[#888]"></div>
+      </div>
+    </div>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
