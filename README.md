@@ -1,1 +1,1 @@
-# Three.js-Project
+A visually immersive 3D experience built with Three.js, inspired by a cyberpunk aesthetic. This project showcases a high-quality GLTF model (DamagedHelmet) rendered using real-time HDR environment lighting, RGB shift post-processing, and custom mouse-controlled interaction. Designed for web with responsive canvas and enhanced realism through ACES tone mapping. A blend of creativity and WebGL power!
